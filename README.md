@@ -1,84 +1,630 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 380" width="1280" height="380">
-  <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#030712"/>
-      <stop offset="40%" stop-color="#0c0a1f"/>
-      <stop offset="100%" stop-color="#1a0a2e"/>
-    </linearGradient>
-    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#06b6d4"/>
-      <stop offset="50%" stop-color="#6366f1"/>
-      <stop offset="100%" stop-color="#a855f7"/>
-    </linearGradient>
-    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.4"/>
-      <stop offset="100%" stop-color="#6366f1" stop-opacity="0"/>
-    </radialGradient>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#6366f1" stroke-width="0.4" opacity="0.25"/>
-    </pattern>
-    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="0.8" fill="#06b6d4" opacity="0.3"/>
-    </pattern>
-    <filter id="glow-text" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-  </defs>
+<!--
+═══════════════════════════════════════════════════════════════════════════════
+  AMINE NAHLI — GITHUB PROFILE README · v3.0
+  ─────────────────────────────────────────
+  Theme:  Security Operations Center / Mission Dashboard
+  Stack:  Markdown + Custom SVG + GitHub Stats APIs
+═══════════════════════════════════════════════════════════════════════════════
 
-  <!-- Background layers -->
-  <rect width="1280" height="380" fill="url(#bg)"/>
-  <rect width="1280" height="380" fill="url(#grid)"/>
-  <rect width="1280" height="380" fill="url(#dots)"/>
+  SETUP INSTRUCTIONS:
+  1. Upload  banner.svg  to:  .github/assets/banner.svg  in your profile repo
+     (the file is provided alongside this README)
+  2. Or use the capsule-render fallback by uncommenting the line below the banner.
+  3. Commit & push — everything else renders automatically from public APIs.
+-->
 
-  <!-- Glow orbs -->
-  <circle cx="200" cy="120" r="280" fill="url(#glow)"/>
-  <circle cx="1080" cy="280" r="320" fill="url(#glow)" opacity="0.6"/>
+<!-- ════════════════════════ HERO BANNER ════════════════════════ -->
 
-  <!-- Top status bar -->
-  <line x1="0" y1="42" x2="1280" y2="42" stroke="#6366f1" stroke-width="1" opacity="0.4"/>
-  <text x="40" y="28" font-family="JetBrains Mono, monospace" font-size="11" fill="#06b6d4" letter-spacing="2">● SYSTEM ONLINE</text>
-  <text x="200" y="28" font-family="JetBrains Mono, monospace" font-size="11" fill="#94a3b8" letter-spacing="2">SESSION: amine.nahli</text>
-  <text x="420" y="28" font-family="JetBrains Mono, monospace" font-size="11" fill="#94a3b8" letter-spacing="2">NODE: fes-mar-01</text>
-  <text x="600" y="28" font-family="JetBrains Mono, monospace" font-size="11" fill="#94a3b8" letter-spacing="2">UPTIME: 1247d</text>
-  <text x="780" y="28" font-family="JetBrains Mono, monospace" font-size="11" fill="#22c55e" letter-spacing="2">▲ STATUS: AVAILABLE</text>
-  <text x="1010" y="28" font-family="JetBrains Mono, monospace" font-size="11" fill="#94a3b8" letter-spacing="2">SEC LVL: ████░ 85%</text>
-  <text x="1200" y="28" font-family="JetBrains Mono, monospace" font-size="11" fill="#06b6d4" letter-spacing="2">v3.0</text>
+<a href="https://github.com/Amine-NAHLI">
+  <img src=".github/assets/banner.svg" alt="Amine Nahli — Security Engineer & Full-Stack Builder" width="100%"/>
+</a>
 
-  <!-- Bottom status bar -->
-  <line x1="0" y1="338" x2="1280" y2="338" stroke="#6366f1" stroke-width="1" opacity="0.4"/>
-  <text x="40" y="358" font-family="JetBrains Mono, monospace" font-size="11" fill="#94a3b8" letter-spacing="3">[ SECURITY ENGINEER ]</text>
-  <text x="280" y="358" font-family="JetBrains Mono, monospace" font-size="11" fill="#94a3b8" letter-spacing="3">[ FULL-STACK BUILDER ]</text>
-  <text x="540" y="358" font-family="JetBrains Mono, monospace" font-size="11" fill="#94a3b8" letter-spacing="3">[ AI / VISION ENGINEER ]</text>
-  <text x="820" y="358" font-family="JetBrains Mono, monospace" font-size="11" fill="#94a3b8" letter-spacing="3">[ UPF FÈS · 3RD YEAR ]</text>
-  <text x="1080" y="358" font-family="JetBrains Mono, monospace" font-size="11" fill="#94a3b8" letter-spacing="3">[ MOROCCO · 2026 ]</text>
+<!-- Fallback (uncomment + delete line above if you haven't uploaded banner.svg):
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:030712,40:0c0a1f,75:6366f1,100:06b6d4&height=300&section=header&text=AMINE%20NAHLI&fontSize=80&fontColor=ffffff&fontAlignY=38&desc=I%20break%20things%20to%20understand%20them%20%E2%80%94%20then%20I%20build%20better%20ones.&descAlignY=58&descSize=16&animation=fadeIn" width="100%"/>
+-->
 
-  <!-- Decorative corner brackets -->
-  <g stroke="#06b6d4" stroke-width="2" fill="none" opacity="0.7">
-    <path d="M 30 70 L 30 100 L 60 100"/>
-    <path d="M 1250 70 L 1250 100 L 1220 100"/>
-    <path d="M 30 310 L 30 280 L 60 280"/>
-    <path d="M 1250 310 L 1250 280 L 1220 280"/>
-  </g>
+<!-- ════════════════════════ STATUS STRIP ════════════════════════ -->
 
-  <!-- Main name -->
-  <text x="640" y="180" text-anchor="middle" font-family="JetBrains Mono, monospace" font-weight="800" font-size="92" fill="url(#accent)" letter-spacing="6" filter="url(#glow-text)">AMINE NAHLI</text>
+<div align="center">
 
-  <!-- Subtitle line -->
-  <line x1="380" y1="210" x2="900" y2="210" stroke="url(#accent)" stroke-width="1" opacity="0.6"/>
+<kbd>**◉ LIVE**</kbd> &nbsp;
+<kbd>📍 Fès, Morocco</kbd> &nbsp;
+<kbd>🎓 UPF · 3rd Year Eng.</kbd> &nbsp;
+<kbd>🟢 Available 2026</kbd> &nbsp;
+<kbd>🌐 AR · FR · EN</kbd>
 
-  <!-- Subtitle -->
-  <text x="640" y="245" text-anchor="middle" font-family="JetBrains Mono, monospace" font-weight="500" font-size="18" fill="#e2e8f0" letter-spacing="4">I BREAK THINGS TO UNDERSTAND THEM</text>
-  <text x="640" y="275" text-anchor="middle" font-family="JetBrains Mono, monospace" font-weight="500" font-size="18" fill="#06b6d4" letter-spacing="4">THEN I BUILD BETTER ONES</text>
+<br/><br/>
 
-  <!-- Decorative side text -->
-  <text x="50" y="195" font-family="JetBrains Mono, monospace" font-size="10" fill="#6366f1" opacity="0.6" letter-spacing="2">0x01</text>
-  <text x="50" y="210" font-family="JetBrains Mono, monospace" font-size="10" fill="#6366f1" opacity="0.6" letter-spacing="2">0x02</text>
-  <text x="50" y="225" font-family="JetBrains Mono, monospace" font-size="10" fill="#6366f1" opacity="0.6" letter-spacing="2">0x03</text>
-  <text x="1210" y="195" font-family="JetBrains Mono, monospace" font-size="10" fill="#6366f1" opacity="0.6" letter-spacing="2">0xAA</text>
-  <text x="1210" y="210" font-family="JetBrains Mono, monospace" font-size="10" fill="#6366f1" opacity="0.6" letter-spacing="2">0xBB</text>
-  <text x="1210" y="225" font-family="JetBrains Mono, monospace" font-size="10" fill="#6366f1" opacity="0.6" letter-spacing="2">0xCC</text>
-</svg>
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=030712)](https://linkedin.com/in/amine-nahli-48b2a734b)
+[![Email](https://img.shields.io/badge/EMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=030712)](mailto:nahli-ami@upf.ac.ma)
+[![GitHub](https://img.shields.io/badge/FOLLOW-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=030712)](https://github.com/Amine-NAHLI)
+[![Visitors](https://komarev.com/ghpvc/?username=Amine-NAHLI&style=for-the-badge&color=06b6d4&label=VISITORS&labelColor=030712)](https://github.com/Amine-NAHLI)
+
+</div>
+
+<br/>
+
+<!-- ════════════════════════ MISSION BRIEF ════════════════════════ -->
+
+<table align="center" border="0">
+<tr>
+<td width="80" align="center" valign="top">
+
+```
+┌──┐
+│01│
+└──┘
+```
+
+</td>
+<td valign="top">
+
+### `MISSION_BRIEF.md`
+
+I'm a third-year engineering student turning curiosity into shipped code. Half my brain runs `nmap`, the other half writes Laravel migrations. I've shipped **16 projects** spanning offensive security, full-stack platforms, computer vision, and robotics — because each one answered a question I had.
+
+I don't believe security and product are different jobs. They're two sides of the same craft: **understanding systems deeply enough to build ones that hold.**
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<!-- ════════════════════════ CONTROL PANEL ════════════════════════ -->
+
+<div align="center">
+
+### ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯  CONTROL PANEL  ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+
+</div>
+
+<table>
+<tr>
+<td width="33%" valign="top" align="center">
+
+<br/>
+
+<img src="https://img.icons8.com/fluency/96/lock-2.png" width="56"/>
+
+#### `00` &nbsp; OFFENSIVE SECURITY
+
+<sub>Recon · Pentesting · CVE Research</sub>
+
+<br/>
+
+`Kali` `Python` `Bash`<br/>
+`Nmap` `Wireshark` `Linux`
+
+<br/>
+
+```
+SKILL ════════════ 85%
+████████████████░░░
+```
+
+I think in packets. I read CVEs<br/>like other people read news.
+
+</td>
+<td width="33%" valign="top" align="center">
+
+<br/>
+
+<img src="https://img.icons8.com/fluency/96/code.png" width="56"/>
+
+#### `01` &nbsp; FULL-STACK ENG.
+
+<sub>APIs · Auth · Architecture</sub>
+
+<br/>
+
+`Laravel` `Spring Boot`<br/>
+`PHP` `Node` `Angular`<br/>
+`MySQL` `MongoDB` `Tailwind`
+
+<br/>
+
+```
+SKILL ════════════ 82%
+████████████████░░░
+```
+
+Clean code, clean APIs,<br/>RBAC done right the first time.
+
+</td>
+<td width="33%" valign="top" align="center">
+
+<br/>
+
+<img src="https://img.icons8.com/fluency/96/artificial-intelligence.png" width="56"/>
+
+#### `02` &nbsp; AI &middot; VISION
+
+<sub>Real-time CV · Robotics · ML</sub>
+
+<br/>
+
+`OpenCV` `YOLOv8`<br/>
+`MediaPipe` `Python`<br/>
+`Java` `React Native`
+
+<br/>
+
+```
+SKILL ════════════ 65%
+██████████████░░░░░
+```
+
+Where math, cameras,<br/>and servomotors meet.
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<!-- ════════════════════════ PROJECT VAULT ════════════════════════ -->
+
+<div align="center">
+
+### ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯  PROJECT VAULT  ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+
+**16 repositories** · **4 mission types** · *every commit tells a story*
+
+<br/>
+
+| | MISSION | COUNT | STACK | STATUS |
+|:---:|:---|:---:|:---|:---:|
+| 🔴 | **Offensive Tooling** | 4 | `python` `kali` `ml` | 🟢 active |
+| 🔵 | **Full-Stack Platforms** | 6 | `laravel` `spring` `node` | 🟢 active |
+| 🟣 | **AI · Vision · Robotics** | 4 | `yolo` `opencv` | 🟢 active |
+| 🟠 | **Experiments** | 2 | `python` `web` | 🟡 evolving |
+
+</div>
+
+<br/>
+
+---
+
+#### <kbd>&nbsp;🔴 &nbsp;MISSION 01 &nbsp;</kbd>&nbsp;&nbsp;Offensive Security Tooling
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<br/>
+
+### 🕵️ &nbsp;[smart-network-mapper](https://github.com/Amine-NAHLI/smart-network-mapper)
+
+> Network scanner with an **AI vulnerability-detection layer**. Maps live hosts, ports, services across subnets — outputs structured visual reports.
+
+<br/>
+
+`python` &nbsp;·&nbsp; `nmap` &nbsp;·&nbsp; `ai` &nbsp;·&nbsp; `MIT`
+
+<sub>**Why I built it:** existing scanners stop at "port 22 open." I wanted one that says "port 22 open, here's what could go wrong."</sub>
+
+</td>
+<td width="50%" valign="top">
+
+<br/>
+
+### 🔍 &nbsp;[port-scanner-python](https://github.com/Amine-NAHLI/port-scanner-python)
+
+> TCP/UDP port scanner built **from raw sockets**. Real-time progress, banner grabbing, export. Zero Nmap dependency — by design.
+
+<br/>
+
+`python` &nbsp;·&nbsp; `raw-sockets` &nbsp;·&nbsp; `cli`
+
+<sub>**Why I built it:** to actually understand what `nmap -sS` does under the hood. Reading docs ≠ writing your own.</sub>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<br/>
+
+### 🧬 &nbsp;[cve-dataset-generator](https://github.com/Amine-NAHLI/cve-dataset-generator)
+
+> Pulls live data from the **NVD API** and structures it into ML-ready datasets for vulnerability detection models.
+
+<br/>
+
+`python` &nbsp;·&nbsp; `nvd-api` &nbsp;·&nbsp; `ml`
+
+<sub>**Why I built it:** to feed the ML layer of `smart-network-mapper`. Tools compound.</sub>
+
+</td>
+<td width="50%" valign="top">
+
+<br/>
+
+### 🔐 &nbsp;`security-portfolio` &nbsp;<kbd>PRIVATE</kbd>
+
+> Personal research vault — **CTF writeups**, custom tooling, pentest notes, vulnerability research. Curated, not published.
+
+<br/>
+
+`python` &nbsp;·&nbsp; `bash` &nbsp;·&nbsp; `research`
+
+<sub>🔒 Available on request to recruiters and verified collaborators.</sub>
+
+</td>
+</tr>
+</table>
+
+---
+
+#### <kbd>&nbsp;🔵 &nbsp;MISSION 02 &nbsp;</kbd>&nbsp;&nbsp;Full-Stack Platforms
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<br/>
+
+### 🏥 &nbsp;[hopital-app](https://github.com/Amine-NAHLI/hopital-app)
+
+> Full hospital management system — patients, doctors, appointments, medical records — with **role-based access control**.
+
+<br/>
+
+`laravel` &nbsp;·&nbsp; `blade` &nbsp;·&nbsp; `mysql`
+
+</td>
+<td width="50%" valign="top">
+
+<br/>
+
+### 📦 &nbsp;[gestion-stock-commerce](https://github.com/Amine-NAHLI/gestion-stock-commerce)
+
+> Stock & commerce platform for SMBs — inventory, orders, suppliers. **Spring Boot REST API + Angular SPA**.
+
+<br/>
+
+`spring-boot` &nbsp;·&nbsp; `angular` &nbsp;·&nbsp; `MIT`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<br/>
+
+### 🎓 &nbsp;[gestion-etudiants-PHP](https://github.com/Amine-NAHLI/gestion-etudiants-PHP) &nbsp;⭐
+
+> Student management — registration, grades, modules, admin dashboard. **Pure PHP, zero framework**, by choice.
+
+<br/>
+
+`php` &nbsp;·&nbsp; `mysql` &nbsp;·&nbsp; `vanilla`
+
+</td>
+<td width="50%" valign="top">
+
+<br/>
+
+### 🛍️ &nbsp;[look-me](https://github.com/Amine-NAHLI/look-me)
+
+> Modern fashion **e-commerce** — catalog, cart, auth, checkout flow. Sleek UX, lean stack.
+
+<br/>
+
+`javascript` &nbsp;·&nbsp; `e-commerce`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<br/>
+
+### 🗺️ &nbsp;[geoalert](https://github.com/Amine-NAHLI/geoalert) &nbsp;⭐
+
+> **Real-time road incident reporting** — drivers signal accidents on a live Leaflet map. Crowdsourced safety, lightweight stack.
+
+<br/>
+
+`node` &nbsp;·&nbsp; `express` &nbsp;·&nbsp; `mongo` &nbsp;·&nbsp; `leaflet`
+
+</td>
+<td width="50%" valign="top">
+
+<br/>
+
+### 🍜 &nbsp;[recette-du-monde](https://github.com/Amine-NAHLI/recette-du-monde-avec-API-mobile-expo)
+
+> Mobile app — browse world cuisines, search dishes, save favourites. **React Native Expo + Recipe API**.
+
+<br/>
+
+`react-native` &nbsp;·&nbsp; `expo` &nbsp;·&nbsp; `rest-api`
+
+</td>
+</tr>
+</table>
+
+---
+
+#### <kbd>&nbsp;🟣 &nbsp;MISSION 03 &nbsp;</kbd>&nbsp;&nbsp;AI · Vision · Robotics
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<br/>
+
+### ✋ &nbsp;[real-time-detection-hand](https://github.com/Amine-NAHLI/real-time-detection-hand)
+
+> Webcam → 21 hand landmarks → gesture recognition. Live, smooth, accurate. **MediaPipe + OpenCV**.
+
+<br/>
+
+`python` &nbsp;·&nbsp; `opencv` &nbsp;·&nbsp; `mediapipe` &nbsp;·&nbsp; `MIT`
+
+</td>
+<td width="50%" valign="top">
+
+<br/>
+
+### 🚗 &nbsp;[transport-yolo-robot](https://github.com/Amine-NAHLI/transport-yolo-robot)
+
+> Autonomous robot using **YOLOv8** — detects & avoids obstacles in real-time from a live camera feed.
+
+<br/>
+
+`python` &nbsp;·&nbsp; `yolov8` &nbsp;·&nbsp; `robotics`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<br/>
+
+### 📐 &nbsp;[transport-optimizer-ro](https://github.com/Amine-NAHLI/transport-optimizer-ro)
+
+> Operations Research route optimizer — **Dijkstra, Bellman-Ford, linear programming**. Math meets logistics.
+
+<br/>
+
+`python` &nbsp;·&nbsp; `algorithms` &nbsp;·&nbsp; `OR`
+
+</td>
+<td width="50%" valign="top">
+
+<br/>
+
+### 🤖 &nbsp;[robotech-presentation](https://github.com/Amine-NAHLI/robotech-presentation)
+
+> Animated web showcase for a robotics project — interactive demos, technical docs, smooth UX.
+
+<br/>
+
+`javascript` &nbsp;·&nbsp; `html5` &nbsp;·&nbsp; `css3`
+
+</td>
+</tr>
+</table>
+
+---
+
+#### <kbd>&nbsp;🟠 &nbsp;MISSION 04 &nbsp;</kbd>&nbsp;&nbsp;Experiments
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<br/>
+
+### 🏰 &nbsp;`donjon_game_version1` &nbsp;<kbd>PRIVATE</kbd>
+
+> **Dungeon adventure game** in Python — turn-based combat, inventory system, procedural rooms, enemy AI. v1 in active dev.
+
+<br/>
+
+`python` &nbsp;·&nbsp; `game-dev` &nbsp;·&nbsp; `cli`
+
+<sub>🔒 Private — actively developing</sub>
+
+</td>
+<td width="50%" valign="top" align="center">
+
+<br/><br/>
+
+### 🔧 &nbsp;More incoming…
+
+<sub>*Side projects spawn faster than I polish READMEs.*</sub>
+
+<br/>
+
+[![Follow](https://img.shields.io/github/followers/Amine-NAHLI?label=Follow%20for%20updates&style=for-the-badge&color=06b6d4&labelColor=030712)](https://github.com/Amine-NAHLI)
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<!-- ════════════════════════ TELEMETRY ════════════════════════ -->
+
+<div align="center">
+
+### ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯  TELEMETRY  ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+
+<sub>real-time GitHub metrics · auto-refreshed</sub>
+
+<br/><br/>
+
+<table>
+<tr>
+<td>
+<img src="https://github-readme-stats.vercel.app/api?username=Amine-NAHLI&show_icons=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=030712&title_color=06b6d4&icon_color=6366f1&text_color=cbd5e1&ring_color=06b6d4" height="180"/>
+</td>
+<td>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Amine-NAHLI&layout=compact&theme=tokyonight&hide_border=true&bg_color=030712&title_color=06b6d4&text_color=cbd5e1&langs_count=8" height="180"/>
+</td>
+</tr>
+</table>
+
+<br/>
+
+<img src="https://streak-stats.demolab.com?user=Amine-NAHLI&theme=tokyonight&hide_border=true&background=030712&ring=06b6d4&fire=6366f1&currStreakLabel=06b6d4&sideLabels=06b6d4&dates=64748b" width="68%"/>
+
+<br/><br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Amine-NAHLI&bg_color=030712&color=06b6d4&line=6366f1&point=ffffff&area=true&area_color=6366f120&hide_border=true&custom_title=COMMIT%20ACTIVITY%20%E2%80%94%20LAST%2031%20DAYS" width="100%"/>
+
+<br/><br/>
+
+<img src="https://github-profile-trophy.vercel.app/?username=Amine-NAHLI&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&column=7"/>
+
+</div>
+
+<br/>
+
+<!-- ════════════════════════ TECH ARSENAL ════════════════════════ -->
+
+<div align="center">
+
+### ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯  TECH ARSENAL  ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+
+<br/>
+
+<table>
+<tr>
+<td align="center" width="120"><img src="https://skillicons.dev/icons?i=python" width="48"/><br/><sub>Python</sub></td>
+<td align="center" width="120"><img src="https://skillicons.dev/icons?i=kali" width="48"/><br/><sub>Kali</sub></td>
+<td align="center" width="120"><img src="https://skillicons.dev/icons?i=linux" width="48"/><br/><sub>Linux</sub></td>
+<td align="center" width="120"><img src="https://skillicons.dev/icons?i=bash" width="48"/><br/><sub>Bash</sub></td>
+<td align="center" width="120"><img src="https://skillicons.dev/icons?i=laravel" width="48"/><br/><sub>Laravel</sub></td>
+<td align="center" width="120"><img src="https://skillicons.dev/icons?i=spring" width="48"/><br/><sub>Spring</sub></td>
+<td align="center" width="120"><img src="https://skillicons.dev/icons?i=php" width="48"/><br/><sub>PHP</sub></td>
+</tr>
+<tr>
+<td align="center"><img src="https://skillicons.dev/icons?i=nodejs" width="48"/><br/><sub>Node.js</sub></td>
+<td align="center"><img src="https://skillicons.dev/icons?i=js" width="48"/><br/><sub>JavaScript</sub></td>
+<td align="center"><img src="https://skillicons.dev/icons?i=java" width="48"/><br/><sub>Java</sub></td>
+<td align="center"><img src="https://skillicons.dev/icons?i=angular" width="48"/><br/><sub>Angular</sub></td>
+<td align="center"><img src="https://skillicons.dev/icons?i=react" width="48"/><br/><sub>React Native</sub></td>
+<td align="center"><img src="https://skillicons.dev/icons?i=tailwind" width="48"/><br/><sub>Tailwind</sub></td>
+<td align="center"><img src="https://skillicons.dev/icons?i=opencv" width="48"/><br/><sub>OpenCV</sub></td>
+</tr>
+<tr>
+<td align="center"><img src="https://skillicons.dev/icons?i=mysql" width="48"/><br/><sub>MySQL</sub></td>
+<td align="center"><img src="https://skillicons.dev/icons?i=mongodb" width="48"/><br/><sub>MongoDB</sub></td>
+<td align="center"><img src="https://skillicons.dev/icons?i=git" width="48"/><br/><sub>Git</sub></td>
+<td align="center"><img src="https://skillicons.dev/icons?i=github" width="48"/><br/><sub>GitHub</sub></td>
+<td align="center"><img src="https://skillicons.dev/icons?i=postman" width="48"/><br/><sub>Postman</sub></td>
+<td align="center"><img src="https://skillicons.dev/icons?i=vscode" width="48"/><br/><sub>VS Code</sub></td>
+<td align="center"><img src="https://skillicons.dev/icons?i=figma" width="48"/><br/><sub>Figma</sub></td>
+</tr>
+</table>
+
+</div>
+
+<br/>
+
+<!-- ════════════════════════ MISSION OBJECTIVE ════════════════════════ -->
+
+<div align="center">
+
+### ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯  MISSION OBJECTIVE · 2026  ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+
+</div>
+
+<br/>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### `> objective.txt`
+
+```diff
++ ROLE       Internship · Junior · Full-time
++ DOMAIN     Security · AppSec · DevSecOps
++            Full-stack with security DNA
++ START      Q1–Q3 2026
++ LOCATION   Morocco · Remote · Open to relocate
++ ENERGY     ▓▓▓▓▓▓▓▓▓▓ 100%
+- BLOCKERS   none — let's build
+```
+
+</td>
+<td width="50%" valign="top">
+
+#### `> what_i_bring.txt`
+
+```yaml
+delivery:
+  shipped: 16 projects (3 disciplines)
+  range:   raw sockets → SPA frontends
+
+mindset:
+  - I learn faster when stakes are real
+  - I take feedback like nutrition
+  - I read the docs, then read the source
+
+unfair_advantage:
+  - trilingual (AR / FR / EN)
+  - comfortable on offense AND defense
+  - self-taught + formally trained
+```
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<!-- ════════════════════════ TRANSMISSION ════════════════════════ -->
+
+<div align="center">
+
+### ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯  OPEN TRANSMISSION  ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+
+<br/>
+
+> *"Security is not a product — it's a property of how you build."*
+
+<br/>
+
+If you're hiring, collaborating, or just want to talk shop about<br/>
+pentesting, clean architecture, or why TCP is quietly beautiful —<br/>
+**my inbox is open.**
+
+<br/>
+
+<a href="https://linkedin.com/in/amine-nahli-48b2a734b">
+  <img src="https://img.shields.io/badge/▶_OPEN_LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=030712"/>
+</a>
+&nbsp;
+<a href="mailto:nahli-ami@upf.ac.ma">
+  <img src="https://img.shields.io/badge/▶_SEND_EMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=030712"/>
+</a>
+&nbsp;
+<a href="https://github.com/Amine-NAHLI">
+  <img src="https://img.shields.io/badge/▶_FOLLOW_GITHUB-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=030712"/>
+</a>
+
+<br/><br/>
+
+```
+╭──────────────────────────────────────────────────────────────╮
+│                                                              │
+│   ▲  session paused · connection persistent                  │
+│   ▲  ready when you are                                      │
+│                                                              │
+│   ──  amine ㉿ kali  ──                                       │
+│                                                              │
+╰──────────────────────────────────────────────────────────────╯
+```
+
+</div>
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:06b6d4,40:6366f1,80:1a0a2e,100:030712&height=120&section=footer&text=built%20with%20intention%20%E2%80%94%20deployed%20with%20care&fontSize=14&fontColor=ffffff&fontAlignY=68&animation=fadeIn" width="100%"/>
