@@ -85,7 +85,7 @@ I don't believe security and product are different jobs. They're two sides of th
 
 <br/>
 
-<img src="https://img.icons8.com/fluency/96/lock-2.png" width="56"/>
+<img src="https://img.icons8.com/fluency/96/shield.png" width="56" alt="Security"/>
 
 #### `00` &nbsp; OFFENSIVE SECURITY
 
@@ -98,19 +98,16 @@ I don't believe security and product are different jobs. They're two sides of th
 
 <br/>
 
-```
-SKILL ════════════ 85%
-████████████████░░░
-```
+![Skill](https://img.shields.io/badge/skill_level-85%25-06b6d4?style=flat-square&labelColor=030712&color=06b6d4)
 
-I think in packets. I read CVEs<br/>like other people read news.
+<sub>I think in packets.<br/>I read CVEs like others read news.</sub>
 
 </td>
 <td width="33%" valign="top" align="center">
 
 <br/>
 
-<img src="https://img.icons8.com/fluency/96/code.png" width="56"/>
+<img src="https://img.icons8.com/fluency/96/code.png" width="56" alt="Code"/>
 
 #### `01` &nbsp; FULL-STACK ENG.
 
@@ -124,19 +121,16 @@ I think in packets. I read CVEs<br/>like other people read news.
 
 <br/>
 
-```
-SKILL ════════════ 82%
-████████████████░░░
-```
+![Skill](https://img.shields.io/badge/skill_level-82%25-6366f1?style=flat-square&labelColor=030712&color=6366f1)
 
-Clean code, clean APIs,<br/>RBAC done right the first time.
+<sub>Clean code, clean APIs,<br/>RBAC done right the first time.</sub>
 
 </td>
 <td width="33%" valign="top" align="center">
 
 <br/>
 
-<img src="https://img.icons8.com/fluency/96/artificial-intelligence.png" width="56"/>
+<img src="https://img.icons8.com/fluency/96/artificial-intelligence.png" width="56" alt="AI"/>
 
 #### `02` &nbsp; AI &middot; VISION
 
@@ -150,12 +144,9 @@ Clean code, clean APIs,<br/>RBAC done right the first time.
 
 <br/>
 
-```
-SKILL ════════════ 65%
-██████████████░░░░░
-```
+![Skill](https://img.shields.io/badge/skill_level-65%25-a855f7?style=flat-square&labelColor=030712&color=a855f7)
 
-Where math, cameras,<br/>and servomotors meet.
+<sub>Where math, cameras,<br/>and servomotors meet.</sub>
 
 </td>
 </tr>
@@ -546,10 +537,10 @@ Where math, cameras,<br/>and servomotors meet.
 ```diff
 + ROLE       Internship · Junior · Full-time
 + DOMAIN     Security · AppSec · DevSecOps
-+            Full-stack with security DNA
++ FOCUS      Full-stack with security DNA
 + START      Q1–Q3 2026
 + LOCATION   Morocco · Remote · Open to relocate
-+ ENERGY     ▓▓▓▓▓▓▓▓▓▓ 100%
++ ENERGY     [██████████] 100%
 - BLOCKERS   none — let's build
 ```
 
