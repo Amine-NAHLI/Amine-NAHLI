@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 125" width="900" height="125">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B1120"/>
+      <stop offset="60%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#172554"/>
+    </linearGradient>
+    <linearGradient id="wave-1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1D4ED8" stop-opacity="0.35"/>
+      <stop offset="50%" stop-color="#2563EB" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#0284C7" stop-opacity="0.4"/>
+    </linearGradient>
+    <linearGradient id="wave-2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2563EB" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0.45"/>
+    </linearGradient>
+    <clipPath id="footer-clip">
+      <rect x="1" y="1" width="898" height="123" rx="14"/>
+    </clipPath>
+  </defs>
+
+  <rect x="1" y="1" width="898" height="123" rx="14" fill="url(#bg-grad)" stroke="#1E293B" stroke-width="1.5"/>
+
+  <g clip-path="url(#footer-clip)">
+    <!-- Layered waves echoing banner.png -->
+    <path d="M 0 82 Q 220 55 460 85 T 900 68 L 900 125 L 0 125 Z" fill="url(#wave-1)"/>
+    <path d="M 0 98 Q 260 116 540 86 T 900 94 L 900 125 L 0 125 Z" fill="url(#wave-2)"/>
+  </g>
+
+  <text x="450" y="50" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif" font-size="14.5" font-weight="600" fill="#F8FAFC" letter-spacing="0.4">
+    "Security is not a product — it's a property of how you engineer."
+  </text>
+  <text x="450" y="75" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="10.5" fill="#94A3B8" letter-spacing="1.6">
+    AMINE NAHLI  ·  FÈS, MOROCCO  ·  CYBERSECURITY · AI · FULL-STACK · DEVOPS
+  </text>
+</svg>
+

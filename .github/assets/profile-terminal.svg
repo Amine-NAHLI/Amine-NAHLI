@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 268" width="900" height="268">
+  <defs>
+    <linearGradient id="term-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563EB" stop-opacity="0.14"/>
+      <stop offset="50%" stop-color="#0EA5E9" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#0F172A" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="accent-line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="50%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#2563EB" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="shield-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#2563EB"/>
+    </linearGradient>
+    <clipPath id="card-clip">
+      <rect x="1" y="1" width="898" height="266" rx="14"/>
+    </clipPath>
+  </defs>
+
+  <!-- Main container -->
+  <rect x="1" y="1" width="898" height="266" rx="14" fill="#0B1120" stroke="#1E293B" stroke-width="1.5"/>
+  <rect x="1" y="1" width="898" height="266" rx="14" fill="url(#term-glow)" clip-path="url(#card-clip)"/>
+
+  <!-- Header bar -->
+  <path d="M 1 15 Q 1 1 15 1 L 885 1 Q 899 1 899 15 L 899 42 L 1 42 Z" fill="#111827"/>
+  <line x1="1" y1="42" x2="899" y2="42" stroke="#1E293B" stroke-width="1"/>
+  <line x1="1" y1="42" x2="500" y2="42" stroke="url(#accent-line)" stroke-width="1.5"/>
+
+  <!-- Traffic light dots -->
+  <circle cx="24" cy="21" r="5.5" fill="#EF4444" opacity="0.9"/>
+  <circle cx="42" cy="21" r="5.5" fill="#F59E0B" opacity="0.9"/>
+  <circle cx="60" cy="21" r="5.5" fill="#22C55E" opacity="0.9"/>
+
+  <!-- Terminal title -->
+  <text x="430" y="25" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11.5" fill="#94A3B8" letter-spacing="0.5">amine@upf-fes: ~/engineering-brief</text>
+
+  <!-- Status pill -->
+  <rect x="742" y="10" width="138" height="22" rx="11" fill="#052E16" stroke="#166534" stroke-width="1"/>
+  <circle cx="757" cy="21" r="3.5" fill="#22C55E"/>
+  <text x="767" y="24.5" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif" font-size="10" font-weight="700" fill="#4ADE80" letter-spacing="0.8">AVAILABLE · 2026</text>
+
+  <!-- Terminal commands -->
+  <g font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12.5">
+    <!-- Command 1 -->
+    <text x="28" y="74" fill="#38BDF8" font-weight="700">$</text>
+    <text x="44" y="74" fill="#F1F5F9" font-weight="600">whoami</text>
+    <text x="44" y="95" fill="#94A3B8"><tspan fill="#E2E8F0" font-weight="600">Amine Nahli</tspan> — 3rd Year Computer Engineering @ UPF Fès</text>
+
+    <!-- Command 2 -->
+    <text x="28" y="126" fill="#38BDF8" font-weight="700">$</text>
+    <text x="44" y="126" fill="#F1F5F9" font-weight="600">cat core_domains.cfg</text>
+    <text x="44" y="147" fill="#38BDF8">Cybersecurity  ·  AI &amp; Vision  ·  Full-Stack  ·  DevOps</text>
+
+    <!-- Command 3 -->
+    <text x="28" y="178" fill="#38BDF8" font-weight="700">$</text>
+    <text x="44" y="178" fill="#F1F5F9" font-weight="600">cat engineering_ethos.txt</text>
+    <text x="44" y="199" fill="#CBD5E1">"Understand how systems break to engineer ones that hold."</text>
+
+    <!-- Command 4 -->
+    <text x="28" y="229" fill="#38BDF8" font-weight="700">$</text>
+    <text x="44" y="229" fill="#F1F5F9" font-weight="600">env | grep -E "LANGS|TARGET"</text>
+    <text x="44" y="247" font-size="11.5" fill="#94A3B8">LANGS=AR/FR/EN   TARGET=AppSec · DevSecOps · Full-Stack</text>
+  </g>
+
+  <!-- Right summary card -->
+  <rect x="652" y="58" width="224" height="184" rx="12" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+  <circle cx="764" cy="108" r="36" fill="none" stroke="#1D4ED8" stroke-width="1" stroke-dasharray="3 3" opacity="0.6"/>
+  <circle cx="764" cy="108" r="26" fill="#1E293B" opacity="0.55"/>
+
+  <!-- Shield icon -->
+  <path d="M 764 90 L 779 96 V 107 C 779 116.5 772.5 124.5 764 127.5 C 755.5 124.5 749 116.5 749 107 V 96 Z" fill="none" stroke="url(#shield-grad)" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M 758.5 108.5 L 762.5 112.5 L 770.5 103.5" fill="none" stroke="#38BDF8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Card labels -->
+  <text x="764" y="162" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif" font-size="13" font-weight="700" fill="#F8FAFC" letter-spacing="0.4">15+ Projects Shipped</text>
+  <text x="764" y="182" text-anchor="middle" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif" font-size="11" fill="#94A3B8">Security · AI · Web · Systems</text>
+
+  <rect x="704" y="198" width="120" height="26" rx="13" fill="#172554" stroke="#2563EB" stroke-width="1"/>
+  <text x="764" y="215" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="11" font-weight="600" fill="#60A5FA">nahli.dev</text>
+</svg>

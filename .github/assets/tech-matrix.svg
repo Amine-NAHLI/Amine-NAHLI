@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 216" width="900" height="216">
+  <rect x="1" y="1" width="898" height="214" rx="14" fill="#0B1120" stroke="#1E293B" stroke-width="1.5"/>
+
+  <!-- Subtle row dividers -->
+  <line x1="24" y1="59" x2="876" y2="59" stroke="#1E293B" stroke-width="1" opacity="0.7"/>
+  <line x1="24" y1="107" x2="876" y2="107" stroke="#1E293B" stroke-width="1" opacity="0.7"/>
+  <line x1="24" y1="155" x2="876" y2="155" stroke="#1E293B" stroke-width="1" opacity="0.7"/>
+
+  <!-- ROW 1: LANGUAGES -->
+  <g>
+    <circle cx="30" cy="34" r="3.5" fill="#38BDF8"/>
+    <text x="42" y="38" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#94A3B8" letter-spacing="1.2">LANGUAGES</text>
+
+    <g font-family="'JetBrains Mono', ui-monospace, monospace" font-size="11" fill="#E2E8F0" text-anchor="middle">
+      <rect x="205" y="19" width="103" height="30" rx="7" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+      <text x="256.5" y="38">Python</text>
+
+      <rect x="318" y="19" width="103" height="30" rx="7" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+      <text x="369.5" y="38">PHP</text>
+
+      <rect x="431" y="19" width="103" height="30" rx="7" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+      <text x="482.5" y="38">Java</text>
+
+      <rect x="544" y="19" width="103" height="30" rx="7" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+      <text x="595.5" y="38">JavaScript</text>
+
+      <rect x="657" y="19" width="103" height="30" rx="7" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+      <text x="708.5" y="38">Bash</text>
+
+      <rect x="770" y="19" width="103" height="30" rx="7" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+      <text x="821.5" y="38">SQL</text>
+    </g>
+  </g>
+
+  <!-- ROW 2: WEB & MOBILE -->
+  <g>
+    <circle cx="30" cy="83" r="3.5" fill="#3B82F6"/>
+    <text x="42" y="87" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#94A3B8" letter-spacing="1.2">WEB &amp; MOBILE</text>
+
+    <g font-family="'JetBrains Mono', ui-monospace, monospace" font-size="11" fill="#E2E8F0" text-anchor="middle">
+      <rect x="205" y="68" width="103" height="30" rx="7" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+      <text x="256.5" y="87">Laravel</text>
+
+      <rect x="318" y="68" width="103" height="30" rx="7" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+      <text x="369.5" y="87">Spring Boot</text>
+
+      <rect x="431" y="68" width="103" height="30" rx="7" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+      <text x="482.5" y="87">Node.js</text>
+
+      <rect x="544" y="68" width="103" height="30" rx="7" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+      <text x="595.5" y="87">Angular</text>
+
+      <rect x="657" y="68" width="103" height="30" rx="7" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+      <text x="708.5" y="87">React Native</text>
+
+      <rect x="770" y="68" width="103" height="30" rx="7" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+      <text x="821.5" y="87">Tailwind CSS</text>
+    </g>
+  </g>
+
+  <!-- ROW 3: AI & DATA -->
+  <g>
+    <circle cx="30" cy="131" r="3.5" fill="#6366F1"/>
+    <text x="42" y="135" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#94A3B8" letter-spacing="1.2">AI &amp; DATA</text>
+
+    <g font-family="'JetBrains Mono', ui-monospace, monospace" font-size="11" fill="#E2E8F0" text-anchor="middle">
+      <rect x="205" y="116" width="103" height="30" rx="7" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+      <text x="256.5" y="135">YOLOv8</text>
+
+      <rect x="318" y="116" width="103" height="30" rx="7" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+      <text x="369.5" y="135">OpenCV</text>
+
+      <rect x="431" y="116" width="103" height="30" rx="7" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+      <text x="482.5" y="135">MediaPipe</text>
+
+      <rect x="544" y="116" width="103" height="30" rx="7" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+      <text x="595.5" y="135">MySQL</text>
+
+      <rect x="657" y="116" width="103" height="30" rx="7" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+      <text x="708.5" y="135">MongoDB</text>
+
+      <rect x="770" y="116" width="103" height="30" rx="7" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+      <text x="821.5" y="135">Leaflet</text>
+    </g>
+  </g>
+
+  <!-- ROW 4: SECURITY & OPS -->
+  <g>
+    <circle cx="30" cy="179" r="3.5" fill="#06B6D4"/>
+    <text x="42" y="183" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#94A3B8" letter-spacing="1.2">SECURITY &amp; OPS</text>
+
+    <g font-family="'JetBrains Mono', ui-monospace, monospace" font-size="11" fill="#E2E8F0" text-anchor="middle">
+      <rect x="205" y="164" width="103" height="30" rx="7" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+      <text x="256.5" y="183">Kali Linux</text>
+
+      <rect x="318" y="164" width="103" height="30" rx="7" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+      <text x="369.5" y="183">Nmap</text>
+
+      <rect x="431" y="164" width="103" height="30" rx="7" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+      <text x="482.5" y="183">Wireshark</text>
+
+      <rect x="544" y="164" width="103" height="30" rx="7" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+      <text x="595.5" y="183">Linux</text>
+
+      <rect x="657" y="164" width="103" height="30" rx="7" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+      <text x="708.5" y="183">Git &amp; GitHub</text>
+
+      <rect x="770" y="164" width="103" height="30" rx="7" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+      <text x="821.5" y="183">Postman</text>
+    </g>
+  </g>
+</svg>
+

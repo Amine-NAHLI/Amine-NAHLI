@@ -1,6 +1,6 @@
 <!--
   AMINE NAHLI — GITHUB PROFILE README
-  Banner asset: .github/assets/banner.png
+  Self-contained visual assets in .github/assets/ (zero broken external stat cards)
 -->
 
 <!-- ════════════════════════ HERO BANNER ════════════════════════ -->
@@ -17,50 +17,29 @@
   <a href="https://nahli.dev">
     <img src="https://img.shields.io/badge/PORTFOLIO-nahli.dev-2563EB?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0F172A" alt="Portfolio"/>
   </a>
+  &nbsp;
   <a href="https://linkedin.com/in/amine-nahli-48b2a734b">
     <img src="https://img.shields.io/badge/LINKEDIN-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0F172A" alt="LinkedIn"/>
   </a>
+  &nbsp;
   <a href="mailto:nahli-ami@upf.ac.ma">
     <img src="https://img.shields.io/badge/EMAIL-nahli--ami%40upf.ac.ma-0284C7?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0F172A" alt="Email"/>
   </a>
+  &nbsp;
   <a href="https://github.com/Amine-NAHLI">
     <img src="https://img.shields.io/github/followers/Amine-NAHLI?label=FOLLOWERS&style=for-the-badge&color=1D4ED8&labelColor=0F172A&logo=github&logoColor=white" alt="GitHub Followers"/>
-  </a>
-  <a href="https://github.com/Amine-NAHLI">
-    <img src="https://komarev.com/ghpvc/?username=Amine-NAHLI&style=for-the-badge&color=0284C7&label=VIEWS&labelColor=0F172A" alt="Profile Views"/>
   </a>
 </p>
 
 <br/>
 
-<!-- ════════════════════════ ABOUT ME ════════════════════════ -->
+<!-- ════════════════════════ ENGINEERING BRIEF ════════════════════════ -->
 
-## About Me
+## Engineering Brief
 
-I am a third-year **Computer Engineering** student at **UPF (Université Privée de Fès)** focused on the intersection of **Cybersecurity**, **Full-Stack Engineering**, and **Applied AI**. I design and build resilient software by understanding systems from both sides: how architectures are engineered, and how vulnerabilities emerge under the hood.
-
-From writing raw-socket port scanners and automated CVE data pipelines to shipping production-style web platforms and real-time computer vision robotics, I turn technical curiosity into clean, testable code.
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <p><strong>Profile Snapshot</strong></p>
-      <ul>
-        <li><strong>Education:</strong> 3rd Year Engineering — Computer Science (UPF)</li>
-        <li><strong>Location:</strong> Fès, Morocco (Open to Remote &amp; Relocation)</li>
-        <li><strong>Languages:</strong> Arabic (Native) · French (Fluent) · English (Professional)</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <p><strong>2026 Focus &amp; Availability</strong></p>
-      <ul>
-        <li><strong>Target Roles:</strong> AppSec · Cybersecurity · DevSecOps · Full-Stack</li>
-        <li><strong>Availability:</strong> Internships, PFE &amp; Junior Engineering Roles</li>
-        <li><strong>Mindset:</strong> Security by design, clean APIs, continuous learning</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src=".github/assets/profile-terminal.svg" alt="Amine Nahli — Engineering Terminal Brief" width="100%"/>
+</p>
 
 <br/>
 
@@ -68,42 +47,9 @@ From writing raw-socket port scanners and automated CVE data pipelines to shippi
 
 ## Core Engineering Pillars
 
-<table>
-  <tr>
-    <td width="25%" valign="top" align="center">
-      <img src="https://img.icons8.com/fluency/96/shield.png" width="44" alt="Cybersecurity"/>
-      <h4>Cybersecurity</h4>
-      <sub>Network Recon · Pentesting · AppSec · CVE Pipelines</sub>
-      <br/><br/>
-      <code>Kali Linux</code> <code>Nmap</code> <code>Wireshark</code><br/>
-      <code>Python</code> <code>Raw Sockets</code> <code>Bash</code>
-    </td>
-    <td width="25%" valign="top" align="center">
-      <img src="https://img.icons8.com/fluency/96/artificial-intelligence.png" width="44" alt="AI & Data Science"/>
-      <h4>AI &amp; Vision</h4>
-      <sub>Computer Vision · Object Detection · Operations Research</sub>
-      <br/><br/>
-      <code>YOLOv8</code> <code>OpenCV</code> <code>MediaPipe</code><br/>
-      <code>Python</code> <code>ML Datasets</code> <code>OR</code>
-    </td>
-    <td width="25%" valign="top" align="center">
-      <img src="https://img.icons8.com/fluency/96/code.png" width="44" alt="Full-Stack Development"/>
-      <h4>Full-Stack Dev</h4>
-      <sub>REST APIs · RBAC · Web &amp; Mobile Applications</sub>
-      <br/><br/>
-      <code>Laravel</code> <code>Spring Boot</code> <code>Angular</code><br/>
-      <code>Node.js</code> <code>React Native</code> <code>SQL/NoSQL</code>
-    </td>
-    <td width="25%" valign="top" align="center">
-      <img src="https://img.icons8.com/fluency/96/cloud-development.png" width="44" alt="DevOps & Systems"/>
-      <h4>DevOps &amp; Systems</h4>
-      <sub>Linux Admin · Automation · Version Control &amp; Delivery</sub>
-      <br/><br/>
-      <code>Linux</code> <code>Bash</code> <code>Git</code><br/>
-      <code>GitHub</code> <code>REST APIs</code> <code>Postman</code>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src=".github/assets/engineering-pillars.svg" alt="Core Engineering Pillars: Cybersecurity, AI & Vision, Full-Stack Dev, DevOps & Systems" width="100%"/>
+</p>
 
 <br/>
 
@@ -222,45 +168,9 @@ From writing raw-socket port scanners and automated CVE data pipelines to shippi
 
 ## Technical Stack
 
-<div align="center">
-
-| Domain | Technologies |
-|:---|:---|
-| **Languages & Scripting** | <img src="https://skillicons.dev/icons?i=python,php,java,js,bash&theme=dark" alt="Languages"/> |
-| **Backend, Web & Mobile** | <img src="https://skillicons.dev/icons?i=laravel,spring,nodejs,angular,react,tailwind&theme=dark" alt="Frameworks"/> |
-| **Data, Vision & Storage** | <img src="https://skillicons.dev/icons?i=opencv,mysql,mongodb&theme=dark" alt="Data and Vision"/> |
-| **Security, OS & Tooling** | <img src="https://skillicons.dev/icons?i=kali,linux,git,github,postman,vscode,figma&theme=dark" alt="Tooling"/> |
-
-</div>
-
-<br/>
-
-<!-- ════════════════════════ GITHUB ANALYTICS ════════════════════════ -->
-
-## GitHub Activity & Telemetry
-
-<div align="center">
-
-<table>
-  <tr>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api?username=Amine-NAHLI&show_icons=true&count_private=true&hide_border=true&bg_color=0F172A&title_color=38BDF8&icon_color=2563EB&text_color=E2E8F0&ring_color=38BDF8" height="175" alt="Amine Nahli GitHub Stats"/>
-    </td>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Amine-NAHLI&layout=compact&hide_border=true&bg_color=0F172A&title_color=38BDF8&text_color=E2E8F0&langs_count=8" height="175" alt="Top Languages"/>
-    </td>
-  </tr>
-</table>
-
-<br/>
-
-<img src="https://streak-stats.demolab.com?user=Amine-NAHLI&hide_border=true&background=0F172A&ring=38BDF8&fire=2563EB&currStreakLabel=38BDF8&sideLabels=38BDF8&currStreakNum=FFFFFF&sideNums=E2E8F0&dates=94A3B8" width="66%" alt="GitHub Streak"/>
-
-<br/><br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Amine-NAHLI&bg_color=0F172A&color=38BDF8&line=2563EB&point=FFFFFF&area=true&area_color=2563EB&hide_border=true&custom_title=CONTRIBUTION%20ACTIVITY%20%E2%80%94%20LAST%2031%20DAYS" width="100%" alt="Contribution Activity Graph"/>
-
-</div>
+<p align="center">
+  <img src=".github/assets/tech-matrix.svg" alt="Technical Stack: Languages, Web & Mobile, AI & Data, Security & Ops" width="100%"/>
+</p>
 
 <br/>
 
@@ -268,9 +178,7 @@ From writing raw-socket port scanners and automated CVE data pipelines to shippi
 
 ## Let's Connect
 
-> *"Security is not a product — it's a property of how you engineer."*
-
-I'm always open to discussing **AppSec**, **offensive security**, **full-stack architecture**, **AI/computer vision**, or **2026 internship & engineering opportunities**.
+Open to **2026 Internships, PFE, and Junior Engineering roles** in **AppSec, Cybersecurity, DevSecOps, or Full-Stack Engineering** — based in **Fès, Morocco**, open to remote work and relocation.
 
 <p align="center">
   <a href="https://nahli.dev">
@@ -286,8 +194,12 @@ I'm always open to discussing **AppSec**, **offensive security**, **full-stack a
   </a>
   &nbsp;
   <a href="https://github.com/Amine-NAHLI">
-    <img src="https://img.shields.io/badge/GITHUB-Follow-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=0F172A" alt="GitHub"/>
+    <img src="https://img.shields.io/badge/GITHUB-Explore_Repos-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=0F172A" alt="GitHub"/>
   </a>
 </p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:1D4ED8,100:0284C7&height=110&section=footer&text=Built%20with%20intention%20%E2%80%94%20Engineered%20with%20security%20in%20mind&fontSize=14&fontColor=FFFFFF&fontAlignY=68&animation=fadeIn" width="100%" alt="Footer Banner"/>
+<br/>
+
+<p align="center">
+  <img src=".github/assets/footer-wave.svg" alt="Amine Nahli — Built with Security in Mind" width="100%"/>
+</p>
